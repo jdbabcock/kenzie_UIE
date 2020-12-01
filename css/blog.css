@@ -1,0 +1,189 @@
+body {
+    margin: 0 auto;
+background: rgb(255,255,255);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(251,251,251,1) 45%, rgba(237,237,237,1) 100%);
+}
+  @font-face {
+  font-family: myFirstFont;
+  src: url(../css/Goldman-Regular.ttf);
+  
+}
+.header {
+    width: 96.9%;
+    height: 100px;
+    padding: 40px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    box-shadow:0px 5px 60px 5px rgba(46, 46, 46, 0.616);
+    
+}
+.title {
+    font-family: myFirstFont;
+    
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-shadow: 0 2px 4px #030303;
+    letter-spacing: 0.1em;
+}
+
+#blog1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    
+}
+.frame1 {
+    
+    background-image: linear-gradient(to right, #ffffff 0%, rgb(241, 241, 241) 100%);
+    width: 1200px;
+    height: 1500px;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 40px;
+    box-shadow:0px 10px 30px 10px rgba(2, 2, 2, 0.356), 0px 10px 60px 5px rgba(252, 4, 219, 0.356) ;
+    
+}
+.headtext {
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.frameheader {
+    width: 1200px;
+    height: 250px;
+    margin: -3.5%;
+    
+    background-image: linear-gradient(to top, #ff00a2 0%, #6713d2 100%);
+}
+
+#codeimg {
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+}
+.profile {
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: 300px;
+  margin-top: 100px;
+  position: relative;
+  
+  
+}
+
+.author {
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin-right: 80px;
+    margin-top: -26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.writerinfo {
+    text-align: left;
+    display: inline;
+    margin-right: 50px;
+    float: right;
+    position: relative;
+    width: 20%;
+    margin-top: -20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: grey;
+}
+.bookmark {
+    display: inline-block;
+    float: right;
+    margin-right: 300px;
+    margin-top: 30px;
+    position: relative;
+    width: 16px;
+
+}
+
+.category {
+    display: inline-block;
+    float: right; 
+    margin-right: 220px;
+    margin-top: -20px;
+    position: relative;
+     color: rgb(255, 0, 221);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 14px;
+
+
+    
+}
+.calendar {
+    display: inline-block;
+  float: right;
+  margin-right: 298px;
+  margin-top: 40px;
+  position: relative;
+}
+.date {
+    display: inline-block;
+    float: right;
+    margin-right: 190px;
+    margin-top: -20px;
+    position: relative;
+    color: rgb(255, 0, 221)
+}
+
+.blogtext {
+    display: block;
+    float: left;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+     font-size: 30px;
+     margin-left: 80px;
+     margin-top: 60px;
+     color: rgb(255, 0, 221);
+
+}
+.paragraph {
+    font-size: 20px;
+    margin-right: 120px;
+    color: rgb(39, 39, 39);
+}
+ #devs {
+     float: right;
+     width: 500px;
+     margin-right: 75px;
+     margin-top: 60px;
+ }
+
+ .steps {
+     display: inline-block;
+    float: left;
+    
+    font-family: Verdana, sans-serif;
+     font-size: 20px;
+     margin-left: 80px;
+     margin-top: 60px;
+     color: rgb(255, 0, 221);
+     line-height: 50px;
+    
+ }
+
+.list {
+    color: rgb(39, 39, 39);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
