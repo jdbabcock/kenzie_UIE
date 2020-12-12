@@ -575,13 +575,9 @@ footer {
             flex-flow: row nowrap;
             align-items: center;
             margin-top: 5%;
-            
-            
-       } 
+            } 
    
-      
-    
-    .tour_button {
+      .tour_button {
      padding: 0.5rem;
      width: 50px;
      font-size: 10px;
