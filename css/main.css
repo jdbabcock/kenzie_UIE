@@ -569,12 +569,25 @@ footer {
 
 @media only screen and (max-width: 380px) {
     
-       nav li{
+       nav ul{
            display: flex;
-           flex-flow: column wrap;
             width: 100%;
+            flex-flow: row nowrap;
+            align-items: center;
+            margin-top: 5%;
+            
+            
        } 
+   
+      
     
+    .tour_button {
+     padding: 0.5rem;
+     width: 50px;
+     font-size: 10px;
+     margin: 0;
+    }
+  
     
     nav {
         font-size: 80%;
@@ -584,7 +597,7 @@ footer {
    
     footer {
 
-    margin-top: 420%;
+    margin-top: 400%;
     font-size: 50%;
     width: 100%;
     
